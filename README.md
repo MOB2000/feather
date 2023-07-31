@@ -1,16 +1,29 @@
-# feather
+# Feather
 
-A new Flutter project.
+A Flutter project to view current weather status.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Beautiful UI
+- Current weather: current temperature, max and min temperature, humidity, pressure
+- Weather forecast for 5 days  (temperature, wind, rain and pressure)
+- Sun/moon animation
+- App background based on day cycle
+- Automatically picks user location (also error handling when location can't be selected!)
+- Persist location and weather data in local storage
+- Works offline (user need to download data before)
+- Automatically refresh data every 15 minutes
+- Bloc architecture, Dio
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr> 
+    <td> 
+        <img width="250px" src="./screenshots/home.png">  
+    </td>
+    <td>
+        <img width="250px" src="./screenshots/sunrise.png">
+    </td>
+</tr> 
+</table>
